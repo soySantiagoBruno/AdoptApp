@@ -1,0 +1,7 @@
+@import 'bootstrap';
+.imagenContratar{
+    width: 700px;
+    height:400px;
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    overflow: hidden;
+}
