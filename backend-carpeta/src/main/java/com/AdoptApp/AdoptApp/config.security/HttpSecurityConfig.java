@@ -53,8 +53,11 @@ public class HttpSecurityConfig {
                     // dejenlo por si lo necesitamos -> authRequestConfig.requestMatchers(HttpMethod.GET, "/auth/validate").permitAll();
                     authRequestConfig.requestMatchers(HttpMethod.GET, "/portal/mascotas/{id}").permitAll();
 
-                    /* Nuevos EndPoints Públicos */
-                    authRequestConfig.requestMatchers(HttpMethod.GET, "/listar").permitAll();
+                    /* Mascota*/
+                    //A futuro esto debería limitado a usuarios(?
+                    authRequestConfig.requestMatchers(HttpMethod.POST, "/mascota/registrar").permitAll();
+
+                    authRequestConfig.requestMatchers(HttpMethod.GET, "/mascota/listar").permitAll();
                     authRequestConfig.requestMatchers(HttpMethod.GET, "/mascota/hola").permitAll();
 
 
