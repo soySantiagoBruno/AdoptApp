@@ -52,7 +52,10 @@ public class HttpSecurityConfig {
                     authRequestConfig.requestMatchers(HttpMethod.POST, "/auth/login").permitAll();
                     // dejenlo por si lo necesitamos -> authRequestConfig.requestMatchers(HttpMethod.GET, "/auth/validate").permitAll();
                     authRequestConfig.requestMatchers(HttpMethod.GET, "/portal/mascotas/{id}").permitAll();
-                    authRequestConfig.anyRequest().authenticated();
+
+                    /* Nuevos EndPoints Públicos */
+                    authRequestConfig.requestMatchers(HttpMethod.GET, "/listar").permitAll();
+                    authRequestConfig.requestMatchers(HttpMethod.GET, "/mascota/hola").permitAll();
 
 
                     /* Metodos que necesitan auth bearToken
@@ -60,6 +63,9 @@ public class HttpSecurityConfig {
 
                     * */
 
+                    /* Importante!
+                    Debe ser la última regla en la cadena de autorización. Esto significa que una vez que se ha llamado a anyRequest(), no se pueden configurar más requestMatchers*/
+                    authRequestConfig.anyRequest().authenticated();
 
                 }).build();
         return filterChain;
