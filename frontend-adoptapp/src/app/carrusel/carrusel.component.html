@@ -1,0 +1,62 @@
+<!--Carrousel-->
+<div id="carouselPerros" class="carousel slide mx-3" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active w-100">
+      <!--Carta-->
+      <div class="card mx-auto">
+        <img src="assets/perro.png" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="container-fluid justify-content-between" style="padding: 0px;">
+
+            <span>
+              <h5 class="card-title">Roco</h5>
+              <p class="card-text">Chubut-AR</p>
+            </span>
+            <span>
+              <span>
+                <!--Poner los iconos de 32x32 px aca-->
+              </span>
+            </span>
+          </div>
+          <div class="container-fluid justify-content-evenly" style="margin-top: 16px;">
+            <a href="#" class="btn boton-mas-info">Mas info</a>
+            <a href="#" class="btn boton-adoptar">Adoptar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="carousel-item w-100">
+      <!--Carta-->
+      <div class="card mx-auto">
+        <img src="assets/perro.png" class="card-img-top" alt="...">
+
+        <div class="card-body">
+          <div class="container-fluid justify-content-between" style="padding: 0px;">
+
+            <span>
+              <h5 class="card-title">Roco</h5>
+              <p class="card-text">Chubut-AR</p>
+            </span>
+            <span>
+              <!--Poner los iconos de 32x32 px aca-->
+            </span>
+          </div>
+          <div class="container-fluid justify-content-evenly" style="margin-top: 16px;">
+            <!--Esto abre el modal info-mascota! -->
+            <button (click)="openModal()" class="btn boton-mas-info">Mas info</button>
+
+            <button class="btn boton-adoptar">Adoptar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
