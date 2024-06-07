@@ -2,6 +2,9 @@
     font-family: "Plus Jakarta Sans";
 }
 
+.btn:hover{
+    color: red;
+}
 
 
 .container-fluid{

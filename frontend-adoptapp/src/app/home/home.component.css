@@ -126,8 +126,10 @@ h3{
 }
 
 .funcionamiento-text{
+    display: flex;
+    justify-content: center;
+    
     color: var(--Black, #222);
-
     /* Cuerpos normales */
     font-family: "Plus Jakarta Sans";
     font-size: 16px;
@@ -164,11 +166,11 @@ h3{
     padding: 30px 24px 180px 24px;
 }
 
-#carouselAdoptados .adoptado-item{
+.adoptado-item {
     height: 300px;
     width: 100%;
 }
-  
+
 #carouselAdoptados .carousel-item img{
     height: 100%;
     width: fit-content;

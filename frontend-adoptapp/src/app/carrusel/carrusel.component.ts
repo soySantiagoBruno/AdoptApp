@@ -24,7 +24,6 @@ export class CarruselComponent implements OnInit{
   }
 
   openModal(){
-      this.display = "block";
       this.modalSwitch=true;
 
       console.log("interruptor ejecutado!")

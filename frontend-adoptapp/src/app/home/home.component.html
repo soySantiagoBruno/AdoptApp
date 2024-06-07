@@ -1,94 +1,10 @@
+<!--Inicio-->
 <div class="container">
   <h1>En <span style="color:#4B88A2">Lazzo</span> un amigo espera</h1>
 
   <h3 class="mx-3" style="text-align: center;">En busca de un hogar</h3>
 
-  <!--Carrousel-->
-  <div id="carouselPerros" class="carousel slide mx-3" data-bs-ride="carousel">
-    <div class="carousel-inner">
-
-      <div class="carousel-item active w-100">
-        <!--Carta-->
-        <div class="card mx-auto">
-          <img src="assets/perro.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <div class="container-fluid justify-content-between" style="padding: 0px;">
-
-              <span>
-                <h5 class="card-title">Roco</h5>
-                <p class="card-text">Chubut-AR</p>
-              </span>
-              <span>
-                <span>
-                  <!--Poner los iconos de 32x32 px aca-->
-                </span>
-              </span>
-            </div>
-            <div class="container-fluid justify-content-evenly" style="margin-top: 16px;">
-              <a href="#" class="btn boton-mas-info">Mas info</a>
-              <a href="#" class="btn boton-adoptar">Adoptar</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="carousel-item w-100">
-        <!--Carta-->
-        <div class="card mx-auto"
-          style="background: var(--cards-gradient-gatos, linear-gradient(237deg, rgba(16, 214, 12, 0.20) 26.61%, rgba(17, 17, 17, 0.04) 59.46%), linear-gradient(0deg, rgba(51, 51, 51, 0.50) 0%, rgba(51, 51, 51, 0.50) 100%), linear-gradient(165deg, #5ED5E5 0.41%, #333 73.65%));">
-          <img src="assets/perro.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <div class="container-fluid justify-content-between" style="padding: 0px;">
-
-              <span>
-                <h5 class="card-title">Roco</h5>
-                <p class="card-text">Chubut-AR</p>
-              </span>
-              <span>
-                <!--Poner los iconos de 32x32 px aca-->
-              </span>
-            </div>
-            <div class="container-fluid justify-content-evenly" style="margin-top: 16px;">
-              <a href="#" class="btn boton-mas-info">Mas info</a>
-              <a href="#" class="btn boton-adoptar">Adoptar</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="carousel-item w-100">
-        <!--Carta-->
-        <div class="card mx-auto">
-          <img src="assets/perro.png" class="card-img-top" alt="...">
-
-          <div class="card-body">
-            <div class="container-fluid justify-content-between" style="padding: 0px;">
-
-              <span>
-                <h5 class="card-title">Roco</h5>
-                <p class="card-text">Chubut-AR</p>
-              </span>
-              <span>
-                <!--Poner los iconos de 32x32 px aca-->
-              </span>
-            </div>
-            <div class="container-fluid justify-content-evenly" style="margin-top: 16px;">
-              <a href="#" class="btn boton-mas-info">Mas info</a>
-              <a href="#" class="btn boton-adoptar">Adoptar</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-    </div>
-
-  </div>
+  <app-carrusel></app-carrusel>
 </div>
 
 <!--About-->
@@ -120,19 +36,21 @@
 <!--Funcionamiento-->
 <div class="funcionamiento">
   
-  <img src="assets/funcionamiento.png" alt="" class="d-block mx-auto w-100">
+  <img src="assets/funcionamiento.png" alt="" class="d-block mx-auto container-sm" style="max-width: 600px;">
 
-  <h3 class="mx-auto d-block">¿Cómo funciona Lazzo?</h3>
+  <h3 class="d-block text-center">¿Cómo funciona Lazzo?</h3>
 
-    <ul class="funcionamiento-text">
-      <li>Explora mascotas filtrando por ubicación, edad, tamaño y sexo.</li>
-      <li>Contacta con el refugio y coordina un encuentro.</li>
-      <li>Después de una reunión exitosa, podrás llevarte a tu nueva mascota a casa.</li>
-    </ul>
+    <div class="funcionamiento-text">
+      <ul>
+        <li>Explora mascotas filtrando por ubicación, edad, tamaño y sexo.</li>
+        <li>Contacta con el refugio y coordina un encuentro.</li>
+        <li>Después de una reunión exitosa, podrás llevarte a tu nueva mascota a casa.</li>
+      </ul>
+    </div>
 
     <div class="row d-flex justify-content-center">
       <div class="col-auto">
-        <img src="assets/about.png" alt="" class="about-img">
+        <img src="assets/about.png" alt="">
       </div>
       <div class="col" style="max-width: 400px;">
         <h3>Si quieres dar en adopción:</h3>
@@ -178,30 +96,3 @@
   </div>
 
   </div>
-
-<!--Footer-->
-<footer >
-  <h5 class="card-title">Lazzo</h5>
-
-  <div class="footer-content ">
-
-    <div class="container-fluid justify-content-center">
-      <div class="footer-text me-2"><a href="">Adoptar</a></div>
-      <div class="footer-text"><a href="">Dar en adopción</a></div>
-    </div>
-
-    <div class="container-fluid justify-content-center">
-      <div class="footer-text me-2"><a href="">¿Quiénes somos?</a></div>
-      <div class="footer-text"><a href="">¿Cómo funciona Lazzo?</a></div>
-    </div>
-  
-    <div class="container-fluid justify-content-center" style="margin-top: 40px;">
-      <div class="footer-secundario me-2"><a href="">© 2024 Lazzo</a></div>
-      <div class="footer-secundario me-2"><a href="">Términos y condiciones</a></div>
-      <div class="footer-secundario me-2"><a href="">Privacidad</a></div>
-      <div class="footer-secundario me-2"><a href="">Cookies</a></div>
-    </div>
-    
-  </div>
-
-</footer>

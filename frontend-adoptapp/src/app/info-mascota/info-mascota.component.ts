@@ -10,7 +10,6 @@ import { NgIf, NgStyle } from '@angular/common';
   styleUrl: './info-mascota.component.css'
 })
 export class InfoMascotaComponent implements OnInit{
-  display = "none";
 
   constructor(private _switchService: SwitchService){
 
@@ -22,7 +21,6 @@ export class InfoMascotaComponent implements OnInit{
 
   // Esta función va a usar el servicio para emitir un evento que CIERRA el modal (un false)
   closeModal(){
-    this.display = "none";
     this._switchService.$modal.emit(false);
   }
 
