@@ -1,5 +1,6 @@
 .modal{
     margin: 0px !important;
+    backdrop-filter: blur(10px);
 }
 
 .modal-dialog{
