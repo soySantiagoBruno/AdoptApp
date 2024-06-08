@@ -1,18 +1,59 @@
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  
+  <div class="modal-dialog container-md mx-auto">
+    
+    <!--Carta Modal-->
+    <div class="card mx-auto">
+      <img src="assets/perro.png" class="card-img" alt="...">
+
+      <div class="card-body">
+
+        <!--Info principal-->
+        <div class="d-flex justify-content-between" style="padding: 0px;margin-top: 24px;">
+
+          <span>
+            <h5 class="card-title">Roco</h5>
+            <p class="card-ubicacion"><img class="m-0" src="assets/location.svg" alt="">Chubut-AR</p>
+          </span>
+          <span>
+            <img class="m-0" src="assets/share.svg" alt="">
+          </span>
         </div>
-        <div class="modal-body">
-          ...
+
+        <!--Detalles-->
+        <div class="detalles">
+          <p><strong>Tamaño</strong>: Mediano</p>
+          <p><strong>Edad</strong>: Joven (2 a 4 años)</p>
+          <p><strong>Sexo</strong>: Macho</p>
+          <br>
+          <p><strong>Descripción</strong>:</p>
+          <p>Roco es un adorable perrito mestizo de 3 años en busca de un hogar amoroso. Es amigable, juguetón y le
+            encanta pasear. Está vacunado y esterilizado. </p>
+          <br>
+          <p><strong>Contacto</strong></p>
+          <p>Teléfono: +52 9 2604111111</p>
+          <p>Correo: adopta&#64;refugiopatitas.org</p>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+
+
+        <!--Botones-->
+        <div class="d-flex flex-column justify-content-center" style="margin-top: 16px;">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn boton-adoptar">Adoptar</button>
+
+          <button type="button" class="btn boton-cerrar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+              <path d="M18.5 18.4189L6.5 6.41895M6.5 18.4189L18.5 6.41895" stroke="#222222" stroke-width="1.5"
+                stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Cerrar
+          </button>
         </div>
       </div>
+
+
     </div>
+
   </div>
+</div>

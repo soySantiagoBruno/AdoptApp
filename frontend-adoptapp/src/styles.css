@@ -3,3 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.btn:hover{
+    background-color: #3A86FF !important;
+    color: white !important;
+    border-color: #3A86FF !important;
+}
