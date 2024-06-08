@@ -1,0 +1,58 @@
+.container-fluid{
+    display: flex;
+    align-items: center;
+    
+}
+
+footer {
+    background-color: #222222;
+    border-radius: 32px 32px 0px 0px;
+
+    margin-top: 96px;
+    
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer-content{
+    margin-top: 16px;
+}
+
+.footer-text {
+    color: #F1F1F1 !important;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.footer-secundario {
+    color: #A1A1A1 !important;
+    /* Textos diminutos */
+    font-family: "Plus Jakarta Sans";
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer h5 {
+    color: #E5A700 !important;
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.card-title {
+    color: var(--CTA, #E5A700);
+    font-family: "Space Grotesk";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}

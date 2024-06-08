@@ -3,11 +3,32 @@
 
 <!--Inicio-->
 <div class="container">
-    <h1>En <span style="color:#4B88A2">Lazzo</span> un amigo espera</h1>
+    <h1>Mascotas en <span style="color:#FF5E5B">adopción</span></h1>
+
+    <h4>Estos son los peludos que aún están buscando un hogar en tu zona</h4>
   
-    <h3 class="mx-3" style="text-align: center;">En busca de un hogar</h3>
-  
+    <!--Filtro-->
+    <p class="d-inline-flex gap-1">
+      <button class="btn filtrar p-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        <img src="assets/filtrar.svg" alt=""> Filtrar
+      </button>
+    </p>
+
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body p-0">
+
+        <app-filtro></app-filtro>
+        
+      </div>
+    </div>
+
+
+    <h3 class="text-left">Perritos</h3>
     <app-carrusel-perros/>
+
+    <h3 class="text-left " style="margin-top: 32px;color: #FF5E5B;">Gatitos</h3>
     <app-carrusel-gatos/>
 
+  
+    <app-footer-dark></app-footer-dark>
   </div>
