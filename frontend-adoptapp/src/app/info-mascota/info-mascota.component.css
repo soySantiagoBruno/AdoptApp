@@ -1,13 +1,9 @@
 .modal{
     margin: 0px !important;
-    background-color: red;
-
 }
 
 .modal-dialog{
-    background-color: green;
     padding: 0px !important;
-
     max-height: 100% !important;
 }
 
