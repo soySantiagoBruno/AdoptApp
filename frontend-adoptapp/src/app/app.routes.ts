@@ -11,6 +11,6 @@ export const routes: Routes = [
     {path: 'saber-mas', component: SaberMasComponent},
     {path: 'info-mascota', component: InfoMascotaComponent},
 
-    //{path: '', redirectTo: '/home', pathMatch: 'full'},
+    {path: '', redirectTo: '/home', pathMatch: 'full'},
     { path: '**', component: PageNotFoundComponent }
 ];
