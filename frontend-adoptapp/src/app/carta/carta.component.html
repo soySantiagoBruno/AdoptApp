@@ -17,9 +17,12 @@
         
         <div class="d-flex justify-content-center" style="margin-top: 16px;">
             <!-- Button trigger modal -->
-            <button type="button" class="btn boton-mas-info me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Mas info</button>
+            <button type="button" class="btn boton-mas-info me-2" data-bs-toggle="modal" data-bs-target="#exampleModal" routerLink="/info-mascota">Mas info</button>
             <button type="button" class="btn boton-adoptar">Adoptar</button>
         </div>
     </div>
 
 </div>
+
+<!--Necesario traer el hijo para que funcione el routerLink de /info-mascota -->
+<app-info-mascota/>
