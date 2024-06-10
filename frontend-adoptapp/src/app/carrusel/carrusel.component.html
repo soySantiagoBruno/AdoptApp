@@ -1,16 +1,193 @@
-<!--Carrousel-->
-<div id="carouselPerros" class="carousel slide mx-3" data-bs-ride="carousel">
-  <div class="carousel-inner">
+  <!--Carrousel-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="99999999">
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+          <!--Carta 1-->
+            <div class="card mx-auto">
+              <img src="assets/perro.png" class="card-img-top" alt="...">
 
-    <div class="carousel-item  w-100">
-      <!--Carta-->
-      <app-carta></app-carta>
+              <div class="card-body">
+                  <div class="d-flex justify-content-between" style="padding: 0px;margin-top: 24px;">
+
+                      <span>
+                          <h5 class="card-title">Roco</h5>
+                          <p class="card-text">Chubut-AR</p>
+                      </span>
+                      <span>
+                          <!--Poner los iconos de 32x32 px aca-->
+                          <img src="assets/share.svg" alt="">
+                      </span>
+                  </div>
+                  
+                  <div class="d-flex justify-content-center" style="margin-top: 16px;">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn boton-mas-info me-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Mas info</button>
+                      <button type="button" class="btn boton-adoptar">Adoptar</button>
+                  </div>
+              </div>
+
+            </div>
+      </div>
+
+      <!-- Modal 1-->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static">
+        <div class="modal-dialog container-md mx-auto">
+          <div class="modal-content">
+            <!--Carta Modal-->
+            <div class="card-modal mx-auto">
+              <img src="assets/perro.png" class="card-modal-img" alt="...">
+  
+              <div class="card-modal-body">
+  
+                <!--Info principal-->
+                <div class="d-flex justify-content-between" style="padding: 0px;margin-top: 24px;">
+  
+                  <span>
+                    <h5 class="card-modal-title">Roco</h5>
+                    <p class="card-modal-ubicacion"><img class="m-0" src="assets/location.svg" alt="">Chubut-AR</p>
+                  </span>
+                  <span>
+                    <img class="m-0" src="assets/share.svg" alt="">
+                  </span>
+                </div>
+  
+                <!--Detalles-->
+                <div class="detalles-modal">
+                  <p><strong>Tamaño</strong>: Mediano</p>
+                  <p><strong>Edad</strong>: Joven (2 a 4 años)</p>
+                  <p><strong>Sexo</strong>: Macho</p>
+                  <br>
+                  <p><strong>Descripción</strong>:</p>
+                  <p>Roco es un adorable perrito mestizo de 3 años en busca de un hogar amoroso. Es amigable, juguetón y le
+                    encanta pasear. Está vacunado y esterilizado. </p>
+                  <br>
+                  <p><strong>Contacto</strong></p>
+                  <p>Teléfono: +52 9 2604111111</p>
+                  <p>Correo: adopta&#64;refugiopatitas.org</p>
+                </div>
+  
+  
+                <!--Botones-->
+                <div class="d-flex flex-column justify-content-center" style="margin-top: 16px;">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn boton-adoptar" style="z-index: 2000;"><a href="www.youtube.com" style="z-index: 3214748364;">Adoptar index2</a></button>
+  
+                  <button type="button" class="btn boton-cerrar" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                      <path d="M18.5 18.4189L6.5 6.41895M6.5 18.4189L18.5 6.41895" stroke="#222222" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+  
+  
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <!--Carta 2-->
+          <div class="card mx-auto">
+            <img src="assets/perro.png" class="card-img-top" alt="...">
+
+            <div class="card-body">
+                <div class="d-flex justify-content-between" style="padding: 0px;margin-top: 24px;">
+
+                    <span>
+                        <h5 class="card-title">Pepe</h5>
+                        <p class="card-text">Chubut-AR</p>
+                    </span>
+                    <span>
+                        <!--Poner los iconos de 32x32 px aca-->
+                        <img src="assets/share.svg" alt="">
+                    </span>
+                </div>
+                
+                <div class="d-flex justify-content-center" style="margin-top: 16px;">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn boton-mas-info me-2" data-bs-toggle="modal" data-bs-target="#exampleModal2">Mas info</button>
+                    <button type="button" class="btn boton-adoptar">Adoptar</button>
+                </div>
+            </div>
+
+          </div>
+      </div>
+      
+      <!-- Modal 2-->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true" data-bs-keyboard="false" data-bs-backdrop="static"> 
+        <div class="modal-dialog container-md mx-auto">
+          <div class="modal-content">
+            <!--Carta Modal-->
+            <div class="card-modal mx-auto">
+              <img src="assets/perro.png" class="card-modal-img" alt="...">
+  
+              <div class="card-modal-body">
+  
+                <!--Info principal-->
+                <div class="d-flex justify-content-between" style="padding: 0px;margin-top: 24px;">
+  
+                  <span>
+                    <h5 class="card-modal-title">Pepe</h5>
+                    <p class="card-modal-ubicacion"><img class="m-0" src="assets/location.svg" alt="">Chubut-AR</p>
+                  </span>
+                  <span>
+                    <img class="m-0" src="assets/share.svg" alt="">
+                  </span>
+                </div>
+  
+                <!--Detalles-->
+                <div class="detalles-modal">
+                  <p><strong>Tamaño</strong>: Mediano</p>
+                  <p><strong>Edad</strong>: Joven (2 a 4 años)</p>
+                  <p><strong>Sexo</strong>: Macho</p>
+                  <br>
+                  <p><strong>Descripción</strong>:</p>
+                  <p>Roco es un adorable perrito mestizo de 3 años en busca de un hogar amoroso. Es amigable, juguetón y le
+                    encanta pasear. Está vacunado y esterilizado. </p>
+                  <br>
+                  <p><strong>Contacto</strong></p>
+                  <p>Teléfono: +52 9 2604111111</p>
+                  <p>Correo: adopta&#64;refugiopatitas.org</p>
+                </div>
+  
+  
+                <!--Botones-->
+                <div class="d-flex flex-column justify-content-center" style="margin-top: 16px;">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn boton-adoptar">Adoptar</button>
+  
+                  <button type="button" class="btn boton-cerrar" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                      <path d="M18.5 18.4189L6.5 6.41895M6.5 18.4189L18.5 6.41895" stroke="#222222" stroke-width="1.5"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+  
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
+    
 
-    <div class="carousel-item active w-100">
-      <!--Carta-->
-      <app-carta></app-carta>
-    </div>
-
+    <!--Controles-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-</div>
