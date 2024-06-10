@@ -93,7 +93,7 @@ h3{
 
     border-radius: 22px;
 
-    height: fit-content;
+    
 
     background-color: white;
     }
@@ -115,6 +115,7 @@ h3{
     border-radius: 20px;
     display: block;
     margin: auto;
+    width: 100%;
 }
 
 
@@ -129,14 +130,20 @@ h3{
 }
 
 .card-modal-ubicacion {
-    color: var(--Black, #222);
+    display: flex;
 
+    color: var(--Black, #222);
     /* Titles/Titulos pequeños */
     font-family: "Plus Jakarta Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    width: 100%;
+}
+
+.card-modal-ubicacion img{
+    width: 20px;
 }
 
 .detalles-modal {
